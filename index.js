@@ -14,7 +14,7 @@ app.get("/status", (req, res) => {
 });
 
 // === Vendor A API Route: Mengambil data dan memformatnya sebagai STRING ===
-app.get("/products", async (req, res, next) => {
+app.get("/warung", async (req, res, next) => {
   try {
     // Query untuk mengambil semua data dari tabel Vendor A
     // Nama kolom DB: kd_produk, nm_brg, hrg, ket_stok
